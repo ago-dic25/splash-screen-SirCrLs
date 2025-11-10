@@ -7,7 +7,7 @@ export default function App() {
     SplashScreen.preventAutoHideAsync(); // evita que se oculte el splash screen de forma predeterminada
     setTimeout(() => {
       SplashScreen.hideAsync(); // oculta después de 2s
-    }, 2000);
+    }, 10000);
   }, []);
 
   return (
