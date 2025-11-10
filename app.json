@@ -4,15 +4,15 @@
     "slug": "contador-de-pasos",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon-v2.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "plugins": [
       [
         "expo-splash-screen",
         {
-          "image": "./assets/splash.png",
-          "resizeMode": "contain",
+          "image": "./assets/icon.png",
+          "resizeMode": "cover",
           "backgroundColor": "#cc007e"
         }
       ],
@@ -32,7 +32,7 @@
       "expo-router"
     ],
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#cc007e"
     },
